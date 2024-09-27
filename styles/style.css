@@ -86,3 +86,7 @@ section {
     align-items: center;
     margin-top: 10px;
 }
+
+.show-nav {
+    display: none;
+}

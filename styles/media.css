@@ -1,0 +1,54 @@
+@media screen and (max-width: 1100px) {
+    body {
+        height: 600px;
+        background-position: center;
+    }
+
+    #first-nav, .unique-nav {
+        display: none;
+    }
+
+    .show-nav {
+        display: inline;
+        background-color: rgba(126, 126, 126, 0.333);
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 20px;
+
+    }
+
+    .show-nav, a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #email {
+        height: 30px;
+        width: 350px;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #text-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+    }
+
+    #first-img {
+        width: 400px;
+    }
+
+    #second-img {
+    width: 400px;
+}
+}
